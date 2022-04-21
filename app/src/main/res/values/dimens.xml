@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_size">74dp</dimen>
+    <dimen name="sub_header_size">22dp</dimen>
+    <dimen name="ink_blot_size">128dp</dimen>
+    <dimen name="note_img_size">192dp</dimen>
+    <dimen name="margin_start">16dp</dimen>
+    <dimen name="margin_top">32dp</dimen>
+    <dimen name="button_radius">25dp</dimen>
+    <dimen name="base_padding">8dp</dimen>
+    <dimen name="min_base_content_height">100dp</dimen>
+    <dimen name="min_content_height">250dp</dimen>
+</resources>

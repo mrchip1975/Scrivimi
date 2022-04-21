@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".fragments.NewNoteFragment"
+              android:id="@+id/frameLayout2" android:layout_marginStart="@dimen/margin_start"
+              android:layout_marginEnd="@dimen/margin_start" android:layout_marginTop="@dimen/margin_top">
+    <TextView
+            android:text="@string/note_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView6" tools:layout_editor_absoluteY="24dp"
+            tools:layout_editor_absoluteX="174dp" style="@style/sub_header_style"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/noteTitle" tools:layout_editor_absoluteY="78dp"
+            tools:layout_editor_absoluteX="101dp" android:hint="@string/note_title_text"/>
+    <TextView
+            android:text="@string/note_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView7" tools:layout_editor_absoluteY="164dp"
+            tools:layout_editor_absoluteX="175dp" style="@style/sub_header_style"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="183dp"
+            tools:layout_editor_absoluteX="1dp">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:gravity="start|top"
+                android:ems="10"
+                android:id="@+id/contentArea" android:lines="20" android:hint="@string/note_content_text"/>
+    </ScrollView>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/saveButton" style="@style/button_style"/>
+</LinearLayout>

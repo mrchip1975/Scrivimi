@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Scrivimi</string>
+    <string name="sub_header_text">Il tuo gestore di appunti personali</string>
+    <string name="ink_blot_desc">Macchia di inchiostro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_note_text">Nuova Nota</string>
+    <string name="note_storage">Achivio Note</string>
+    <string name="information_text">Note Versione</string>
+    <string name="note_title_text">Titolo Nota</string>
+    <string name="note_content_text">Contenuto Nota</string>
+    <string name="save_label">Salva Nota</string>
+    <string name="save_ok">Nota salvata con successo!</string>
+    <string name="note_id_template">0</string>
+    <string name="back_nutton_label">Torna alla home</string>
+    <string name="note_date_label">Nota del:</string>
+    <string name="removed_note_message">Nota cancellata con successo!</string>
+    <string name="back_notes_button_label">Torna alle note</string>
+    <string name="update_note_header_text">Aggiornamento Nota</string>
+</resources>
