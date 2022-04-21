@@ -40,7 +40,7 @@ public class NewNoteFragment extends Fragment {
         // Inflate the layout for this fragment
         View layout =  inflater.inflate(R.layout.fragment_new_note, container, false);
         layout.findViewById(R.id.saveButton).setOnClickListener(source->saveNote(layout));
-
+        layout.findViewById(R.id.backButton).setOnClickListener(source->loader.loadFragments(new OperationsFragment()));
         return layout;
     }
     private void saveNote(View layout) {
