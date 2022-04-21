@@ -17,4 +17,5 @@
     <string name="removed_note_message">Nota cancellata con successo!</string>
     <string name="back_notes_button_label">Torna alle note</string>
     <string name="update_note_header_text">Aggiornamento Nota</string>
+    <string name="update_ok">Aggiornamento completato con successo!</string>
 </resources>

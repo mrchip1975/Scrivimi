@@ -15,6 +15,7 @@ import org.alex.scrivimi.R;
 import org.alex.scrivimi.data.Note;
 import org.alex.scrivimi.data.NoteManager;
 import org.alex.scrivimi.fragments.FragmentsLoader;
+import org.alex.scrivimi.fragments.UpdateNoteFragment;
 
 import java.util.List;
 import java.util.concurrent.Executor;
@@ -52,6 +53,7 @@ public class NoteListAdapter extends RecyclerView.Adapter<NoteListAdapter.NoteHo
             notifyItemRemoved(position);
             notifyItemRangeChanged(position,this.listNote.size());
          });
+        holder.update.setOnClickListener(source->loader.loadFragments(new UpdateNoteFragment(currentNote)));
     }
 
     @Override
