@@ -30,7 +30,7 @@ private FragmentsLoader loader;
         super.onAttach(context);
         if(!(context instanceof FragmentsLoader))
             throw  new UnsupportedOperationException("Not Yer implemented");
-
+        loader = (FragmentsLoader) context;
     }
 
     @Override
