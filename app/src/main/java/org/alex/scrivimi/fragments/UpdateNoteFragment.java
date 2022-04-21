@@ -29,6 +29,8 @@ private FragmentsLoader loader;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_update_note, container, false);
+        View layout = inflater.inflate(R.layout.fragment_update_note, container, false);
+        initComponents(layout);
+        return layout;
     }
 }
