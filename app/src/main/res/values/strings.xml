@@ -18,4 +18,6 @@
     <string name="back_notes_button_label">Torna alle note</string>
     <string name="update_note_header_text">Aggiornamento Nota</string>
     <string name="update_ok">Aggiornamento completato con successo!</string>
+    <string name="version_number_label">Versione 1.0.0</string>
+    <string name="author_label">Autore:Alessandro Grande</string>
 </resources>

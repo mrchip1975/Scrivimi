@@ -1,5 +1,6 @@
 package org.alex.scrivimi.fragments;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -58,7 +59,17 @@ public class OperationsFragment extends Fragment implements View.OnClickListener
                                                         break;
             case R.id.showNoteImg:fragment = new ShowNotesFragment();
                                                          break;
+            case R.id.aboutImg: buildInfoAlert();
+                                                   return;
         }
         this.loader.loadFragments(fragment);
+    }
+    private void buildInfoAlert() {
+         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+         LayoutInflater inflater = LayoutInflater.from(getContext());
+         View infoView = inflater.inflate(R.layout.info_app_layout,null);
+         builder.setCancelable(true);
+         builder.setView(infoView);
+         builder.create().show();
     }
 }
